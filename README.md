@@ -99,6 +99,7 @@ Project for Advanced Web Development and Applications course
 4. Clone the repository:
     ```shell
     git clone https://github.com/thientranreal/InstagramProject.git
+    ```
 5.Navigate to the project directory:
     ```shell
     cd InstagramProject
