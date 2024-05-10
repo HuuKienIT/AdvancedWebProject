@@ -24,26 +24,32 @@ Project for Advanced Web Development and Applications course
             <tr>
                 <td style="text-align: center;">3</td>
                 <td style="text-align: center;">3121410470</td>
-                <td><a href="https://thientranreal.github.io/thien-portfolio/">Trần Trung Thiện</a></td>
+                <td><a href="https://thientranreal.github.io/thien-portfolio/">Lê Đức Duy Tân</a></td>
             </tr>
-            <tr>
-                <td style="text-align: center;">4</td>
-                <td style="text-align: center;">3121410546</td>
-                <td><a href="https://bt2701.github.io/My-Profile/">Dương Thành Trưởng</a></td>
-            </tr>
+
         </tbody>
     </table>   
 </div>
 
 ## Features
-- User Authentication: Secure user registration and login system.
-- Customizable Profiles: Users can personalize their profiles with relevant information and change passwords.
-- Post Management: Easily create, edit, and delete posts.
-- Commenting System: Interact with posts by leaving comments.
-- Friendship Mechanism: Connect with other users to stay updated with their posts.
-- News Feed: A personalized feed displaying posts from connected users.
-- Search Functionality: Easily find users using the search feature.
-
+**For Users:**
+- User Authentication: Implement a secure registration and login system for users to access the platform.
+- Customizable Profiles: Allow users to personalize their profiles by adding relevant information such as shoe preferences, sizes, and favorite brands. They should also have the ability to update their profile information and manage their account settings.
+- Product Management: Easily add, edit, and remove shoe products from the inventory. Include details such as product images, descriptions, sizes, colors, and prices.
+- Shopping Cart: Enable users to add desired shoes to their shopping cart for easy checkout.
+- Order Tracking: Provide users with the ability to track the status of their orders, including order history and shipment tracking.
+- Reviews and Ratings: Implement a system where users can leave reviews and ratings for shoes they've purchased, helping others make informed decisions.
+- Search Functionality: Allow users to search for specific shoe products based on criteria such as brand, size, color, and price range.
+- Newsletter Subscription: Allow users to subscribe to newsletters to receive updates on new arrivals, promotions, and special offers.
+- Responsive Design: Ensure the website is optimized for various devices, including desktops, tablets, and smartphones, for a seamless user experience.
+**For Admin:**
+- Admin Dashboard: Provide a centralized dashboard for administrators to manage the website, including user accounts, product listings, orders, and site settings.
+- User Management: Allow administrators to view and manage user accounts, including the ability to activate, deactivate, or delete accounts, as well as manage user roles and permissions.
+- Product Management: Enable administrators to add, edit, and remove shoe products from the inventory, including the ability to update product details, images, and inventory levels.
+- Order Management: Allow administrators to view and manage orders, including order processing, fulfillment, and tracking.
+- Analytics and Reporting: Provide administrators with access to analytics and reporting tools to track key metrics such as website traffic, sales performance, and user engagement.
+- Content Management: Allow administrators to manage website content such as static pages, banners, and promotional materials.
+- Role-Based Access Control: Implement role-based access control (RBAC) to define different levels of access for administrators. Assign roles such as super admin, manager, and staff, with varying permissions based on their responsibilities. Super admins have full access to all features and settings, while other roles have restricted access based on their assigned permissions.
 ## Interface
 1. Login
 <img src="apps/static/image/READMEIMG/login.png" alt="Login">
@@ -77,68 +83,48 @@ Project for Advanced Web Development and Applications course
 ## Installation
 
 ### Linux
-1. Install Python:
-    ```shell
-    sudo apt-get install python 
-    ```
-2. Install Django:
-    ```shell
-    pip install django 
-    ```
-3. Clone the repository:
-    ```shell
+1. Install PHP
+   '''shell
+    sudo apt-get install php 
+   '''
+2. Install MySQL:
+    '''shell
+    sudo apt-get install mysql-server
+    '''
+3. Install Apache:
+   '''shell
+   sudo apt-get install apache2
+   '''
+4. Clone the repository:
+    '''shell
     git clone https://github.com/thientranreal/InstagramProject.git
-    ```
-4. Navigate to the project directory:
-    ```shell
+5.Navigate to the project directory:
+    '''shell
     cd InstagramProject
-    ```
-5. Install the required dependencies:
-    ```shell
-    pip install -r requirements.txt
-    ```
+    '''
 6. Set up the database:
-    ```shell
-    python manage.py migrate
-    ```
-7. Start the development server:
-    ```shell
-    python manage.py runserver
-    ```
-8. Access the website at `http://localhost:8000` in your web browser.
+    '''shell
+    mysql -u username -p
+    '''sql
+    CREATE DATABASE instagram_db;
+    '''
+8. Import the database schema:
+    '''shell
+    mysql -u username -p instagram_db < database_schema.sql
+    '''
+9. Start the Apache server:
+    '''shell
+    sudo service apache2 start
+    '''
+10. Access the website at http://localhost/shop-giay in your web browser.
 
 ### Windows
-1. Visit the [Python website](https://www.python.org/downloads/) to choose the appropriate version.
-2. Run the .exe file to install Python.
-3. Check the version: 
-    ```shell
-    python --version 
-    ```
-4. Install Django: 
-    ```shell
-    pip install django
-    ```
-5. Clone the repository:
-    ```shell
-    git clone https://github.com/thientranreal/InstagramProject.git
-    ```
-6. Navigate to the project directory:
-    ```shell
-    cd InstagramProject
-    ```
-7. Install the required dependencies:
-    ```shell
-    pip install -r requirements.txt
-    ```
-8. Set up the database:
-    ```shell
-    python manage.py migrate
-    ```
-9. Start the development server:
-    ```shell
-    python manage.py runserver
-    ```
-10. Access the website at `http://localhost:8000` in your web browser.
+1. Download and install XAMPP which includes PHP, MySQL, and Apache.
+2. Run XAMPP and start the Apache and MySQL services.
+3. Clone the repository into the htdocs directory inside the XAMPP installation folder.
+4. Navigate to http://localhost/phpmyadmin in your web browser and create a new database named instagram_db.
+5. Import the database schema using the database_schema.sql file provided in the repository.
+6. Access the website at http://localhost/shop-giay in your web browser.
 
 ## Contributing
 Contributions are welcome! If you find any issues or have suggestions for improvements, please open an issue or submit a pull request.
