@@ -100,7 +100,7 @@ Project for Advanced Web Development and Applications course
    ```shell
    git clone https://github.com/thientranreal/InstagramProject.git
    ```
-5.Navigate to the project directory:
+5. Navigate to the project directory:
     ```shell
     cd InstagramProject
     ```
