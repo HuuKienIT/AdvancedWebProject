@@ -25,7 +25,7 @@ Project for Advanced Web Development and Applications course
                 <td style="text-align: center;">3</td>
                 <td style="text-align: center;">3121410470</td>
                 <td><a href="https://thientranreal.github.io/thien-portfolio/">Lê Đức Duy Tân</a></td>
-            </tr>=
+            </tr>
         </tbody>
     </table>   
 </div>
@@ -41,6 +41,7 @@ Project for Advanced Web Development and Applications course
 - Search Functionality: Allow users to search for specific shoe products based on criteria such as brand, size, color, and price range.
 - Newsletter Subscription: Allow users to subscribe to newsletters to receive updates on new arrivals, promotions, and special offers.
 - Responsive Design: Ensure the website is optimized for various devices, including desktops, tablets, and smartphones, for a seamless user experience.
+
 **For Admin:**
 - Admin Dashboard: Provide a centralized dashboard for administrators to manage the website, including user accounts, product listings, orders, and site settings.
 - User Management: Allow administrators to view and manage user accounts, including the ability to activate, deactivate, or delete accounts, as well as manage user roles and permissions.
