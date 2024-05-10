@@ -50,36 +50,6 @@ Project for Advanced Web Development and Applications course
 - Analytics and Reporting: Provide administrators with access to analytics and reporting tools to track key metrics such as website traffic, sales performance, and user engagement.
 - Content Management: Allow administrators to manage website content such as static pages, banners, and promotional materials.
 - Role-Based Access Control: Implement role-based access control (RBAC) to define different levels of access for administrators. Assign roles such as super admin, manager, and staff, with varying permissions based on their responsibilities. Super admins have full access to all features and settings, while other roles have restricted access based on their assigned permissions.
-## Interface
-
-1. Login
-<img src="apps/static/image/READMEIMG/login.png" alt="Login">
-2. Register
-<img src="apps/static/image/READMEIMG/register.png" alt="Register">
-3. Home
-<img src="apps/static/image/READMEIMG/home.png" alt="Home">
-4. Add post
-<img src="apps/static/image/READMEIMG/createPost.png" alt="Add post">
-5. Delete post 
-<img src="apps/static/image/READMEIMG/deletePost.png" alt="Delete post">
-6. Edit post
-<img src="apps/static/image/READMEIMG/editPost.png" alt="Edit post">
-7. Profile
-<img src="apps/static/image/READMEIMG/profile.png" alt="Profile">
-8. Edit profile 
-<img src="apps/static/image/READMEIMG/editProfile.png" alt="Edit profile">
-9. Change password
-<img src="apps/static/image/READMEIMG/changePassword.png" alt="Change password">
-10. Friends
-<img src="apps/static/image/READMEIMG/friend.png" alt="Friends">
-11. Notifications
-<img src="apps/static/image/READMEIMG" alt="Notifications">
-12. Messenger
-<img src="apps/static/image/READMEIMG" alt="Messenger">
-13. Individual call
-<img src="apps/static/image/READMEIMG" alt="Individual call">
-14. Group call
-<img src="apps/static/image/READMEIMG" alt="Group call"> 
 
 ## Installation
 
