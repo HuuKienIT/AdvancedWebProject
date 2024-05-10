@@ -107,7 +107,7 @@ Project for Advanced Web Development and Applications course
 6. Set up the database:
     ```shell
     mysql -u username -p
-    ```sql
+    ```shell
     CREATE DATABASE instagram_db;
     ```
 8. Import the database schema:
