@@ -97,9 +97,9 @@ Project for Advanced Web Development and Applications course
    sudo apt-get install apache2
    ```
 4. Clone the repository:
-    ```shell
-    git clone https://github.com/thientranreal/InstagramProject.git
-    ```
+   ```shell
+   git clone https://github.com/thientranreal/InstagramProject.git
+   ```
 5.Navigate to the project directory:
     ```shell
     cd InstagramProject
