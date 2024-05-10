@@ -51,6 +51,7 @@ Project for Advanced Web Development and Applications course
 - Content Management: Allow administrators to manage website content such as static pages, banners, and promotional materials.
 - Role-Based Access Control: Implement role-based access control (RBAC) to define different levels of access for administrators. Assign roles such as super admin, manager, and staff, with varying permissions based on their responsibilities. Super admins have full access to all features and settings, while other roles have restricted access based on their assigned permissions.
 ## Interface
+
 1. Login
 <img src="apps/static/image/READMEIMG/login.png" alt="Login">
 2. Register
@@ -83,68 +84,48 @@ Project for Advanced Web Development and Applications course
 ## Installation
 
 ### Linux
-1. Install Python:
+1. Install PHP
+   ```shell
+    sudo apt-get install php 
+   ```
+2. Install MySQL:
     ```shell
-    sudo apt-get install python 
+    sudo apt-get install mysql-server
     ```
-2. Install Django:
-    ```shell
-    pip install django 
-    ```
-3. Clone the repository:
+3. Install Apache:
+   ```shell
+   sudo apt-get install apache2
+   ```
+4. Clone the repository:
     ```shell
     git clone https://github.com/thientranreal/InstagramProject.git
-    ```
-4. Navigate to the project directory:
+5.Navigate to the project directory:
     ```shell
     cd InstagramProject
-    ```
-5. Install the required dependencies:
-    ```shell
-    pip install -r requirements.txt
     ```
 6. Set up the database:
     ```shell
-    python manage.py migrate
+    mysql -u username -p
+    ```sql
+    CREATE DATABASE instagram_db;
     ```
-7. Start the development server:
+8. Import the database schema:
     ```shell
-    python manage.py runserver
+    mysql -u username -p instagram_db < database_schema.sql
     ```
-8. Access the website at `http://localhost:8000` in your web browser.
+9. Start the Apache server:
+    ```shell
+    sudo service apache2 start
+    ```
+10. Access the website at http://localhost/shop-giay in your web browser.
 
 ### Windows
-1. Visit the [Python website](https://www.python.org/downloads/) to choose the appropriate version.
-2. Run the .exe file to install Python.
-3. Check the version: 
-    ```shell
-    python --version 
-    ```
-4. Install Django: 
-    ```shell
-    pip install django
-    ```
-5. Clone the repository:
-    ```shell
-    git clone https://github.com/thientranreal/InstagramProject.git
-    ```
-6. Navigate to the project directory:
-    ```shell
-    cd InstagramProject
-    ```
-7. Install the required dependencies:
-    ```shell
-    pip install -r requirements.txt
-    ```
-8. Set up the database:
-    ```shell
-    python manage.py migrate
-    ```
-9. Start the development server:
-    ```shell
-    python manage.py runserver
-    ```
-10. Access the website at `http://localhost:8000` in your web browser.
+1. Download and install XAMPP which includes PHP, MySQL, and Apache.
+2. Run XAMPP and start the Apache and MySQL services.
+3. Clone the repository into the htdocs directory inside the XAMPP installation folder.
+4. Navigate to http://localhost/phpmyadmin in your web browser and create a new database named instagram_db.
+5. Import the database schema using the database_schema.sql file provided in the repository.
+6. Access the website at http://localhost/shop-giay in your web browser.
 
 ## Contributing
 Contributions are welcome! If you find any issues or have suggestions for improvements, please open an issue or submit a pull request.
