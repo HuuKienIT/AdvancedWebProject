@@ -107,6 +107,7 @@ Project for Advanced Web Development and Applications course
 6. Set up the database:
     ```shell
     mysql -u username -p
+    ```
     ```shell
     CREATE DATABASE instagram_db;
     ```
