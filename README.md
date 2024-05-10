@@ -84,38 +84,38 @@ Project for Advanced Web Development and Applications course
 
 ### Linux
 1. Install PHP
-   '''shell
+   ```shell
     sudo apt-get install php 
-   '''
+   ```
 2. Install MySQL:
-    '''shell
+    ```shell
     sudo apt-get install mysql-server
-    '''
+    ```
 3. Install Apache:
-   '''shell
+   ```shell
    sudo apt-get install apache2
-   '''
+   ```
 4. Clone the repository:
-    '''shell
+    ```shell
     git clone https://github.com/thientranreal/InstagramProject.git
 5.Navigate to the project directory:
-    '''shell
+    ```shell
     cd InstagramProject
-    '''
+    ```
 6. Set up the database:
-    '''shell
+    ```shell
     mysql -u username -p
-    '''sql
+    ```sql
     CREATE DATABASE instagram_db;
-    '''
+    ```
 8. Import the database schema:
-    '''shell
+    ```shell
     mysql -u username -p instagram_db < database_schema.sql
-    '''
+    ```
 9. Start the Apache server:
-    '''shell
+    ```shell
     sudo service apache2 start
-    '''
+    ```
 10. Access the website at http://localhost/shop-giay in your web browser.
 
 ### Windows
