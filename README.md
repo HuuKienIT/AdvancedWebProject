@@ -26,6 +26,16 @@ Project for Advanced Web Development and Applications course
                 <td style="text-align: center;">3121410470</td>
                 <td><a href="https://thientranreal.github.io/thien-portfolio/">Lê Đức Duy Tân</a></td>
             </tr>
+            <tr>
+                <td style="text-align: center;">3</td>
+                <td style="text-align: center;">3121410470</td>
+                <td><a href="">Nguyễn Hoàng Đăng</a></td>
+            </tr>
+            <tr>
+                <td style="text-align: center;">3</td>
+                <td style="text-align: center;">3121410470</td>
+                <td><a href="">Nguyễn Văn Thành</a></td>
+            </tr>
         </tbody>
     </table>   
 </div>
@@ -68,11 +78,11 @@ Project for Advanced Web Development and Applications course
    ```
 4. Clone the repository:
    ```shell
-   git clone https://github.com/thientranreal/InstagramProject.git
+   git clone https://github.com/HuuKienIT/AdvancedWebProject.git
    ```
 5. Navigate to the project directory:
     ```shell
-    cd InstagramProject
+    cd AdvancedWebProject
     ```
 6. Set up the database:
     ```shell
